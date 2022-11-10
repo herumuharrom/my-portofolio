@@ -1,0 +1,57 @@
+.jumbotron {
+  padding-top: 8rem;
+  background: url(./img/bg.jpg);
+  color: aliceblue;
+
+}
+
+#talents {
+  background: url(./img/bg.jpg);
+}
+
+section {
+  padding: 20px;
+
+}
+
+.social-icons {
+  margin: 10px;
+  padding: 50px;
+  list-style: none;
+  display: flex;
+}
+
+.social-icons li {
+  margin: 5px;
+  justify-content: center;
+  position: center;
+  top: 50px;
+  left: 100px;
+  width: 80%;
+  height: 30px;
+
+
+}
+
+.social-icons li a {
+  border: 3px solid rgb(71, 80, 85);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(5, 165, 183);
+  border-radius: 200%;
+  border-right: none;
+  border-top: none;
+  transition: 0.3s ease;
+}
+
+.social-icons li a:hover {
+  border-top: 3px solid;
+  border-right: 3px solid;
+  transform: rotate(360deg);
+  background-color: deepskyblue;
+  border-color: white;
+}
